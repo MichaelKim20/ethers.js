@@ -173,15 +173,17 @@ const networks = {
     "arbitrum-goerli": { chainId: 421613, name: "arbitrum-goerli" },
     bnb: { chainId: 56, name: "bnb" },
     bnbt: { chainId: 97, name: "bnbt" },
-    bosagora: {
+    bosagora_mainnet: {
         chainId: 2151,
-        ensAddress: "0x8ec078ecC2779959136eE870475c02204B7eA93d",
-        name: "bosagora",
+        name: "bosagora_mainnet",
     },
-    athens: {
+    bosagora_testnet: {
         chainId: 2019,
-        ensAddress: "0x98ceb786EbF190705B442974113651A3Ae3D23f3",
-        name: "athens",
+        name: "bosagora_testnet",
+    },
+    bosagora_devnet: {
+        chainId: 24680,
+        name: "bosagora_devnet",
     },
 };
 /**
